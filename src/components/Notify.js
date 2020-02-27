@@ -22,7 +22,10 @@ const Notify = ({
   const renderNotificationIcon = () => {
     const subTypes = ["error", "info", "success", "warn"];
     if (subTypes.includes(subType)) {
-      const src = require(`./icons/${subType}.svg`);
+      if (subType === "error") src = error;
+      else if (subType === "info") src = info;
+      else if (subType === "success") src = success;
+      else if (subType === "warn") src = warn;
       return (
         <div className={styles["notification-icon"]}>
           <img src={src} alt={subType} />
