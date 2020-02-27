@@ -1,0 +1,27 @@
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

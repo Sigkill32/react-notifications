@@ -1,0 +1,20 @@
+{
+  "name": "react-notefy-example",
+  "homepage": "https://your-github-username.github.io/react-notefy",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "file:../node_modules/react",
+    "react-dom": "file:../node_modules/react-dom",
+    "react-notefy": "file:..",
+    "react-scripts": "file:../node_modules/react-scripts"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
